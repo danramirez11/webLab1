@@ -9,7 +9,7 @@ function Latest (){
     return(
         <>
         <div className="section-back">
-        <section>
+        <section className="section">
             <h1>Latest Updates</h1>
             <div>
                 {data.updates.map((item) => (<CardUp key={item.id} data={item} random= {item.id === number ? true : false} ></CardUp>))}

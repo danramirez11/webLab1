@@ -1,11 +1,4 @@
-section div{
+.section .card-container{
     display: flex;
     flex-wrap: wrap;
-}
-
-@media (max-width: 940px) {
-    section div {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
 }

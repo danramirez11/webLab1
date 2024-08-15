@@ -6,9 +6,9 @@ function Products () {
     return(
         <>
         <div className="section-back">
-        <section>
+        <section className="section">
             <h1>Our Products</h1>
-            <div>
+            <div className=".card-container">
                 {data.products.map((item) => (
                     <CardPro
                     key = {item.id}

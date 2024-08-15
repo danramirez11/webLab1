@@ -31,9 +31,3 @@
 .cardUp .tag p{
     margin: 0;
 }
-
-@media (max-width: 940px) {
-    .cardUp{
-        width: 100%;
-    }
-}

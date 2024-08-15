@@ -5,7 +5,7 @@ import "./About.css";
 function About() {
     return (
         <>
-        <section className="about">
+        <section className="about section">
             {data.about.map(item => 
                 <CardInfo key={item.id} data={item} />
             )}

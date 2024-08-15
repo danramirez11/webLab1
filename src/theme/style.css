@@ -24,7 +24,7 @@ button{
     border-radius: 30px;
 }
 
-section{
+.section{
     padding: 16px;
     width: 60vw;
 }
@@ -59,11 +59,21 @@ li, a {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 @media (max-width: 940px) {
-    section div {
+    .section{
+        width: 90vw;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .section .card-container {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 }
 
