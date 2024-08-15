@@ -1,4 +1,11 @@
-.section div{
+section div{
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 940px) {
+    section div {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
