@@ -1,0 +1,25 @@
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    position: relative;
+}
+
+.banner-info{
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.banner-info img{
+    width: 30px;
+    height: 30px;
+}

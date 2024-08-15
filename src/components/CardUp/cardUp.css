@@ -1,0 +1,33 @@
+.cardUp{
+    position: relative;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cardUp p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardUp .tag{
+    color: white;
+    padding: 8px;
+    border-radius: 16px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+}
+
+.cardUp .tag p{
+    margin: 0;
+}

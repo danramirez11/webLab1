@@ -1,0 +1,9 @@
+#cardInfo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #4fd1d310;
+    color: white;
+    position: relative;
+}

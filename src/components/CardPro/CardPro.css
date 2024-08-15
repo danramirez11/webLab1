@@ -1,0 +1,57 @@
+.cardPro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+    color: black;
+    gap: 4px;
+}
+
+.cardPro-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 4px;
+}
+
+.cardPro-btn{
+    background-color: rgba(0, 0, 0, 0.042);
+    color: #5e9bff;
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.icon{
+    width: 10%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cardPro-info div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0px;
+    position: relative;
+}
+
+.cardPro-info button{
+    position: absolute;
+    right: 4px;
+    top: 12px;
+}
+
+.cardPro-info div p, .cardPro-info div h4{
+    margin: 0;
+}
+
+.cardPro-info div h4{
+    font-size: small;
+}
+
