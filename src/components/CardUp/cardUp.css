@@ -31,3 +31,11 @@
 .cardUp .tag p{
     margin: 0;
 }
+
+.largeCard{
+    width: 15%;
+}
+
+.smallCard{
+    width: 35%;
+}

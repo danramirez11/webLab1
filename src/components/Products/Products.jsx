@@ -8,7 +8,7 @@ function Products () {
         <div className="section-back">
         <section className="section">
             <h1>Our Products</h1>
-            <div className=".card-container">
+            <div>
                 {data.products.map((item) => (
                     <CardPro
                     key = {item.id}
